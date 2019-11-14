@@ -1,0 +1,325 @@
+
+body
+{
+background-color: black;
+}
+
+.mySlides{
+display: none;
+}
+
+
+.mobilemenu {
+  display: block;
+}
+
+
+.menu-top
+
+{
+background-color: black;
+height: 40px;
+
+}
+
+.menu
+
+{
+float: left;
+margin:auto;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 15pt;
+}
+
+
+#logo{
+float: right;
+width: 350px;
+height: 63px;
+margin:auto;
+}
+
+#logo img{
+position: relative;
+margin-top: 3px;
+margin-left: 2px;
+z-index: 1;
+max-width: 100%;
+}
+
+#logo h1{
+color: white;
+height: 30px;
+}
+
+
+.menu ul{
+list-style-type: none;
+margin:auto;
+padding: 0;
+}
+
+.menu li{
+float: left;
+}
+
+
+.menu li a{
+display: block;
+background-color: black;
+color: white;
+width: 150px;
+height: 40px;
+text-align: center;
+line-height: 50px;
+text-decoration: none;
+transition: all .3s ease-in;
+}
+
+
+.menu li a:hover{
+color: #FF0000;
+}
+
+#myVideo {
+
+margin-top: 0;
+margin-bottom: 0;
+min-width: 100%; 
+min-height: 100%;
+opacity: 0.4;
+filter: alpha(opacity=40);
+}
+
+
+.sendform{
+width: 300px;
+margin: 30px auto;
+padding: 20px;
+border-radius: 20px;
+}
+
+
+.sendform label{
+float: left;
+display: block;
+letter-spacing: 2px;
+margin-top: 15px;
+}
+
+
+
+.sendform textarea{
+height: 90px;
+width: 360px;
+padding: 3px 5px;
+color: #2980b9;
+box-sizing: border-box;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12pt;
+}
+
+
+.sendform textarea:focus{
+border: 2px solid #ccc;
+padding-left: 10px;  
+}
+
+
+.sendform input[type="text"]{
+width: 360px;
+padding: 3px 5px;
+color: #2980b9;
+box-sizing: border-box;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12pt;
+}
+
+
+.sendform input[type="text"]:focus{
+border: 2px solid #ccc;
+padding-left: 10px;  
+}
+
+
+.sendform input[type="submit"]{
+margin-top: 30px;
+background: #fff;
+border: 2px solid #2980b9;
+padding: 5px 10px;  
+color: #2980b9;
+
+}
+
+.sendform input[type="reset"]{
+margin-top: 30px;
+background: #fff;
+border: 2px solid #2980b9;
+padding: 5px 10px;  
+color: #2980b9;
+
+}
+
+
+.searchform input[type=text] {
+
+width: 130px;
+box-sizing: border-box;
+border: 2px solid #ccc;
+border-radius: 4px;
+font-size: 16px;
+
+background-color: white;
+background-position: 10px 10px; 
+background-repeat: no-repeat;
+
+padding: 12px 20px 12px 40px;
+-webkit-transition: width 0.4s ease-in-out;
+transition: width 0.4s ease-in-out;
+}
+
+
+.searchform input[type=text]:focus {
+width: 25%;
+}
+
+
+img
+{
+max-width: 65%;
+border-radius: 8px;
+padding: 5px; 
+float: right;
+}
+
+
+
+.midtext{
+background-color: #344;
+height: auto;
+width: auto;
+}
+
+
+.midtext h2{
+position: fix;
+text-align: center;
+top: 0;
+bottom: 0;
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 24pt;
+}
+
+
+.threebox{
+height: 300;
+width: auto;
+float: left;
+border: 2px solid grey;
+margin: 6px;
+}
+
+#fourboxoutside{
+border: 2px solid white;
+margin-bottom: 10px;
+background-color: white;
+}
+
+.fourbox{
+height: 150px;
+width: 200;
+float: left;
+border: 2px solid grey;
+margin: 7px
+}
+
+.boxtext{
+padding: 10px;
+width: 180;
+height: 200px;
+color: white;
+text-align: justify;
+}
+
+
+.pic1{
+width: 50%;
+float: right;
+margin: 10px;
+}
+
+.text1{
+float: left;
+margin: 10px;
+color: white;
+}
+
+
+.footer{
+background-color: white;
+height: 35px;
+
+}
+
+
+.footer p{
+line-height: 35px;
+text-align: center;
+color: black;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 8pt;
+}
+
+.clear
+{
+ clear: both;
+}
+
+
+.textline{
+margin-left: auto;
+margin-right: auto;
+}
+
+.textsmall{
+width: 200px;
+margin-right: 40px;
+margin-top: 40px;
+margin-left: 100px;
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+float: left;
+}
+
+
+.button {
+
+background-color: #344;
+border: none;
+color: white;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin: auto;
+cursor: pointer;
+float: right;
+}
+
+
+.socialmedia{
+text-align: center;
+width: 50px;
+text-decoration: none;
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 40%;
+}
+
+.socialmedia:hover {
+opacity: 0.7;
+}
+
